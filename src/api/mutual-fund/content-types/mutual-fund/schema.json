@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mutual_funds",
+  "info": {
+    "singularName": "mutual-fund",
+    "pluralName": "mutual-funds",
+    "displayName": "Mutual-Fund",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "details": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

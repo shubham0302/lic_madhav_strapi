@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auto_insurances",
+  "info": {
+    "singularName": "auto-insurance",
+    "pluralName": "auto-insurances",
+    "displayName": "auto-insurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "company_name"
+    }
+  }
+}

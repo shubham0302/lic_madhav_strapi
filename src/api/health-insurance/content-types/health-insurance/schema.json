@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "health_insurances",
+  "info": {
+    "singularName": "health-insurance",
+    "pluralName": "health-insurances",
+    "displayName": "health-insurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "company_name"
+    }
+  }
+}
