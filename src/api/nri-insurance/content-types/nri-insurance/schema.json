@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nri_insurances",
+  "info": {
+    "singularName": "nri-insurance",
+    "pluralName": "nri-insurances",
+    "displayName": "Nri-insurance"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cover_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
