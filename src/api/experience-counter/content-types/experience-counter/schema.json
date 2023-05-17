@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experience_counters",
+  "info": {
+    "singularName": "experience-counter",
+    "pluralName": "experience-counters",
+    "displayName": "experienceCounter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "experienceYear": {
+      "type": "integer",
+      "required": true
+    },
+    "experienceText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
